@@ -28,12 +28,12 @@ namespace HelloWorld
                             PrintMoney("Usd to Byn",MoneyUsdToByn,"BYN");
                             break;
                         }
-                        {
-                            break;
                     case 2:
         
+                        {
                             MoneyBynToUsd = convertedmoney / wallet;
                             PrintMoney("Byn to Usd", MoneyBynToUsd,"USD");
+                            break;
                         }
                 };
                 Console.WriteLine("you wanna convert \n1.usd to byn\n2.byn to usd");
